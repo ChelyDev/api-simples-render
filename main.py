@@ -13,7 +13,7 @@ app = FastAPI()
 @app.get("/health")
 def health_check():
     """
-    endpoint que retorna um status de 'ok' para indicar que a API está funcionando.
+    endpoint que retorna um status de ok para indicar que a API está funcionando.
     """
     return {"status": "ok"}
 

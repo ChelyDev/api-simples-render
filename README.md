@@ -39,4 +39,4 @@ Passos (pra eu lembrar depois também):
 Endpoints da API
 
 `GET /health`: Endpoint de verificação de status. Retorna `{"status": "ok"}`.
-`GET /me`: Retorna informações pessoais da desenvolvedora.
+`GET /me`: Retorna informações pessoais 
