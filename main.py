@@ -2,18 +2,18 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
-# main.py
+#main.py
 
 from fastapi import FastAPI
 
-# Cria uma instância da aplicação FastAPI
+#cria uma instância da aplicação FastAPI
 app = FastAPI()
 
 # Endpoint 1: /health
 @app.get("/health")
 def health_check():
     """
-    Endpoint que retorna um status de 'ok' para indicar que a API está funcionando.
+    endpoint que retorna um status de 'ok' para indicar que a API está funcionando.
     """
     return {"status": "ok"}
 
@@ -21,7 +21,7 @@ def health_check():
 @app.get("/me")
 def get_personal_info():
     """
-    Endpoint que retorna informações pessoais.
+    endpoint que retorna informações pessoais.
     """
 
     aluno_info = {
@@ -30,6 +30,6 @@ def get_personal_info():
         "curso": "Sistemas de Informação",
         "github": "https://github.com/ChelyDev",
         "cidade": "Porteiras/CE",
-        "interesses": ["Linux", "SI", "Dormir"] 
+        "interesses": ["Concurso Público", "SI", "Dormir"] 
     }
     return aluno_info
