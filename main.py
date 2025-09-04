@@ -9,7 +9,7 @@ from fastapi import FastAPI
 #cria uma instância da aplicação FastAPI
 app = FastAPI()
 
-# Endpoint 1: /health
+#endpoint 1: /health
 @app.get("/health")
 def health_check():
     """
@@ -17,7 +17,7 @@ def health_check():
     """
     return {"status": "ok"}
 
-# Endpoint 2: /me
+#endpoint 2: /me
 @app.get("/me")
 def get_personal_info():
     """
