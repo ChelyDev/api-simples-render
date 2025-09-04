@@ -30,6 +30,6 @@ def get_personal_info():
         "curso": "Sistemas de Informação",
         "github": "https://github.com/ChelyDev",
         "cidade": "Porteiras/CE",
-        "interesses": ["Linux", "SI", "Sleep"] 
+        "interesses": ["Linux", "SI", "Dormir"] 
     }
     return aluno_info
